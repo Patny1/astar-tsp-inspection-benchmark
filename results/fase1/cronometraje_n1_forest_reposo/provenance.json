@@ -1,0 +1,34 @@
+{
+  "energy_model": "legacy",
+  "drone": "default",
+  "symmetric_pairs": false,
+  "preset": "fase1",
+  "voxel_size_m": 5.0,
+  "generators": [
+    "astar"
+  ],
+  "scenarios": [
+    "forest"
+  ],
+  "n_targets": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "instance_seeds": 30,
+  "orderers": [
+    "nn",
+    "two_opt",
+    "pso",
+    "gwo",
+    "aco",
+    "ga"
+  ],
+  "cost_functions": [
+    "distance",
+    "energy_aware"
+  ],
+  "algo_seeds_per_instance": 1,
+  "n_jobs": 1
+}

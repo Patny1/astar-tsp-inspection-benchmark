@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+results/**/analysis/
+results/fase1/rerun*/
+results/fase1/tsplib/rerun*.csv
+.exportado_por_exportar_paper
